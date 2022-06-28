@@ -93,9 +93,9 @@ def add_menu(window):
 
     about_menu = Menu(help_menu)
     about_menu.add_command(label="Harsit Kumar Upadhya",
-                           command=lambda: web.open("https://www.linkedin.com/in/harsit-upadhya-58b52a200/")
+                           command=lambda: web.open("https://www.linkedin.com/in/harsit-upadhya-58b52a200/"))
     about_menu.add_command(label="Ganpati G Bhat",
-                           command=lambda: web.open("https://www.linkedin.com/in/supradparashar/"))
+                           command=lambda: web.open("https://github.com/Ganubhat1"))
 
     help_menu.add_cascade(label="About", menu=about_menu)
 
