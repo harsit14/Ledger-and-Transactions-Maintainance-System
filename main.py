@@ -92,9 +92,9 @@ def add_menu(window):
     files_menu.add_command(label="Exit", command=window.quit)
 
     about_menu = Menu(help_menu)
-    about_menu.add_command(label="Sandeep N S",
-                           command=lambda: web.open("https://www.linkedin.com/in/sandeep-n-s-6b3888165/"))
-    about_menu.add_command(label="Suprad S Parashar",
+    about_menu.add_command(label="Harsit Kumar Upadhya",
+                           command=lambda: web.open("https://www.linkedin.com/in/harsit-upadhya-58b52a200/")
+    about_menu.add_command(label="Ganpati G Bhat",
                            command=lambda: web.open("https://www.linkedin.com/in/supradparashar/"))
 
     help_menu.add_cascade(label="About", menu=about_menu)
